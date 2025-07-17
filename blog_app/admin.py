@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Post, Comment, Tag, Author, AuthorProfile
+from .models import Post, Comment, Tag, Author
 
 
 @admin.register(Post)
@@ -57,7 +57,3 @@ class AuthorAdmin(admin.ModelAdmin):
     search_fields = ['name']
 
 admin.site.register(Author, AuthorAdmin)
-
-
-
-

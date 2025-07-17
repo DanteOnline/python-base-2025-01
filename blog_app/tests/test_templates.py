@@ -1,6 +1,5 @@
 import pytest
 from django.urls import reverse
-from blog_app.models import Author, Post
 from bs4 import BeautifulSoup
 
 

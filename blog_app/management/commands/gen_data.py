@@ -1,7 +1,7 @@
-from django.core.management.base import BaseCommand
-from blog_app.models import Post, Author, Comment, Tag
-from faker import Faker
 import random
+from django.core.management.base import BaseCommand
+from faker import Faker
+from blog_app.models import Post, Author, Comment
 
 
 class Command(BaseCommand):

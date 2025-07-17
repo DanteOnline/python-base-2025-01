@@ -1,6 +1,5 @@
 import pytest
 from django.urls import reverse
-from blog_app.models import Author, Post
 
 
 # @pytest.mark.django_db
